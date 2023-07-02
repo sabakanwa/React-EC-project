@@ -27,7 +27,7 @@ return (
     
     <Link className='text-decoration-none' to={`/products/category/${val}`}>  <Card>
 
-<Card.Body style={{ width: '100%', height: '100%', backgroundColor: 'black', color:'white' }}>
+<Card.Body style={{ height: '100%', backgroundColor: 'black', color:'white',objectFit: 'content'  }}>
 <Card.Title>{val}</Card.Title>
 </Card.Body>
 </Card>
