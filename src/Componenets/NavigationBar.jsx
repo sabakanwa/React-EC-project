@@ -27,9 +27,9 @@ function NavigationBar() {
         </Container>
       </Navbar> */}
       
-      <Navbar expand="lg" className="bg-body-tertiary" data-bs-theme="dark"  >
+      <Navbar expand="lg" className="abc" data-bs-theme="dark"  >
       <Container>
-        <Link  className='ms-4 btn btn-dark mt-1' to="/home"> <LiaShopware/>Clicky Online Shopping</Link>
+        <Link  className=' abc ms-4 btn btn-dark mt-1' to="/home"> <LiaShopware/>Clicky Online Shopping</Link>
        
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

@@ -4,6 +4,7 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import axios from 'axios';
 import {Link} from 'react-router-dom'
+import '../style/all.css'
 function CategoryPage() {
 
 const {categoryName} = useParams()
@@ -19,7 +20,7 @@ return (
 <div className="container">
 <div className="my-5 text-center">
 <h1> {categoryName.toUpperCase()} </h1>
-<p className="text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis non maiores sunt quibusdam molestias ratione deserunt, rerum voluptas enim quidem repellendus dolores accusamus unde nulla excepturi maxime officiis earum accusantium.</p>
+<p className="pro">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis non maiores sunt quibusdam molestias ratione deserunt, rerum voluptas enim quidem repellendus dolores accusamus unde nulla excepturi maxime officiis earum accusantium.</p>
 </div>
 
 <div className="row">

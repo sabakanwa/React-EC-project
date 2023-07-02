@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Card from 'react-bootstrap/Card';
 import axios from 'axios'
 import { Link } from 'react-router-dom'
+import '../style/all.css'
 
 function CategoriesSection() {
   const [categories , setCategories] = useState([])
@@ -14,7 +15,7 @@ return (
   <>
   <div className="container">
       <div className="my-5">
-<h1> Categories</h1>
+<h1 className='pro'> Categories</h1>
 <p className='text-secondary'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, eum perferendis ab hic aspernatur facilis cumque accusantium aperiam ullam vel distinctio voluptatum unde veritatis iste veniam molestiae repudiandae. Suscipit, rerum?</p>
       </div>
   

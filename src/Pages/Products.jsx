@@ -16,10 +16,10 @@ function Products() {
 
   return (
     <>
-    <div className='pro'>
+    <div >
       <div className="container">
         <div className="my-5">
-          <h1> Products</h1>
+          <h1 className='pro'> Products</h1>
           <p className='text-secondary'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, eum perferendis ab hic aspernatur facilis cumque accusantium aperiam ullam vel distinctio voluptatum unde veritatis iste veniam molestiae repudiandae. Suscipit, rerum?</p>
         </div>
 

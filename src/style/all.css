@@ -1,5 +1,13 @@
 body{
-    background-color:white;
-
+  
+   background-color: white;
+    background-repeat:inherit;
 }
 
+.pro{
+    color:black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.abc{
+    background-color: black;
+}

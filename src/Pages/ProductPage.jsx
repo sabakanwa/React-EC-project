@@ -8,6 +8,7 @@ import ImageSection from '../Componenets/ImageSection'
 
 
 
+
 function ProductPage() {
   const { productID } = useParams()
   const [product, setproduct] = useState({})
