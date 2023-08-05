@@ -23,23 +23,25 @@ return (
 <p className="pro">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis non maiores sunt quibusdam molestias ratione deserunt, rerum voluptas enim quidem repellendus dolores accusamus unde nulla excepturi maxime officiis earum accusantium.</p>
 </div>
 
-<div className="row">
-  {products.map((val, key) => (
-    <div className="col-md-6 my-4 object-" key={key}>
-      <Link className="text-decoration-none" to={`/products/${val.id}`}>
-        <Card style={{ width: '100%',height: '450px', backgroundColor: 'black', color: 'white' }}>
-          <Card.Img variant="top" src={val.thumbnail} style={{ height: '250px', objectFit: 'fill' }} />
-          <Card.Body>
-            <Card.Title>{val.title} - {val.price}$</Card.Title>
-            <Card.Text>
-              {val.description}
-            </Card.Text>
-            <Button variant="primary">View Product</Button>
-          </Card.Body>
-        </Card>
-      </Link>
-    </div>
-  ))}
+<div className="d-flex justify-content-center">
+  <div className="row">
+    {products.map((val, key) => (
+      <div className="col-md-6 my-4" key={key}>
+        <Link className="text-decoration-none" to={`/products/${val.id}`}>
+          <Card style={{ width: '80%', height: '500px', backgroundColor: 'black', color: 'white' }}>
+            <Card.Img variant="top" src={val.thumbnail} style={{ height: '250px', objectFit: 'fill' }} />
+            <Card.Body>
+              <Card.Title>{val.title} - {val.price}$</Card.Title>
+              <Card.Text>
+                {val.description}
+              </Card.Text>
+              <Button variant="primary">View Product</Button>
+            </Card.Body>
+          </Card>
+        </Link>
+      </div>
+    ))}
+  </div>
 </div>
 
 

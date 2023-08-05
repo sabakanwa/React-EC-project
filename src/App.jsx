@@ -10,6 +10,7 @@ import NavigationBar from './Componenets/NavigationBar'
 import FooterSection from './Componenets/FooterSection'
 import CategoryPage from './Pages/CategoryPage'
 import ProductPage from './Pages/ProductPage'
+import ContextProvider from "./Context/Login/Context";
 
 function App() {
 
