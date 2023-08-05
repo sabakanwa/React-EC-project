@@ -31,9 +31,9 @@ function Products() {
 
               <Link className='text-decoration-none' to={`/products/${val.id}`}>  <Card>
 
-                <Card.Body style={{ width: '100%', height: '100%', backgroundColor: 'black', color: 'white' }}>
+                <Card.Body style={{ width: '90%', height: '350px', backgroundColor: 'black', color: 'white' }}>
                   <Card.Title>{val.title}</Card.Title>
-                  <Card.Img variant="top" src={val.thumbnail} style={{ height: '250px', objectFit: 'fill' }} />
+                  <Card.Img variant="top" src={val.thumbnail} style={{ height: '300px', objectFit: 'fill' }} />
                 </Card.Body>
               </Card>
               </Link>
